@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*第一部分开始*/
+body{background:#22c3aa; font-family:Lato,"Microsoft YaHei";}
+.btn{ position:relative; top:250px; left:20px; width:30px; height:120px; background:#22c3aa; overflow:hidden;}
+.btn li{float:left; width:10px; height:10px; background:#22c3aa; border-radius:50%; margin-left:10px;
+margin-top:10px; border:1px solid #000; }
+.btn li.active{ background:#000;}
+.main{width:1250px; height:500px; background:#22c3aa; position:absolute; left:50%; text-align:center;
+top:50%; margin-left:-625px; margin-top:-250px;}
+.main .act{width:100%; height:100%; display:none;}
+.main .center{ text-align:center;}
+.cont{ position:relative; width:100%; height:250px; background:#22c3aa;}
+.cont div{position:absolute; left:550px; top:20px; width:150px; height:150px; border-radius:50%;
+border:5px solid #fff; overflow:hidden;}
+.cont div img{width:100%; height:100%;}
+.cont h1{position:absolute; left:585px; top:180px; font:bold 3.5em "微软雅黑"; text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;
+color:#eef3f0;}
+.subtitle{ color:#aee2d9; font-size:1.5em;}
+h4{ font-size:1.4em; color:#eef3f0; margin-top:20px;}
+h6{ width:100px; font-size:1.3em; color:#008a75; font-weight:bold; margin-top:20px; margin-left:577px;}
+.mailbox{ width:200px; font-size:1.3em; color:#008a75; margin-left:528px; }
+h6:hover{color:yellow; cursor:pointer;}
+.mailbox:hover{ color:yellow; cursor:pointer;}
+/*第一部分结束*/
+
+/*第二部分开始*/
+.tab2{ background:#22c3aa;}
+.tab3{ background:#22c3aa;}
+.tab4{ background:#22c3aa;}
+.tab2 .title{font-weight:bold; font-size:2em; text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;
+color:#eef3f0;}
+.tab2 .nav{ position:relative; width:700px; height:450px; margin-left:275px; background:#22c3aa;}
+.tab2 .nav li{ float:left; margin:20px;}
+.tab2 .nav li p{ width:300px; height:80px; background:#008a75; color:#fff; padding-top:20px;
+border-radius:5px;}
+.tab2 .nav li p:hover{ background:#39F;}
+#ul1{ position:relative;width:840px; height:305px;  margin:30px auto; overflow:hidden;}
+#ul1 li{ position:absolute;left:0;top:0;width:840px; height:100%;}
+#ul1 li img{width:100%; height:100%;} 
+#ul1 li span{ position:absolute;left:0;top:0;width:20px; height:100%; line-height:305px; text-align:center;}
+#subnav { position:absolute; bottom:-20px; left:500px; width:500px; height:100px;}
+#subnav img{ float:left; margin-right:10px;}
+.tab4 h2{ font:bold 3.5em "微软雅黑"; text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;
+color:#eef3f0;}
+/*第二部分结束*/
